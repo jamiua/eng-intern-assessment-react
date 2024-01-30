@@ -4,6 +4,9 @@ import StopWatchButton from '../Button/StopWatchButton'
 
 export default function StopWatch() {
     return(
-        <div className="watch__glass"></div>
+        <div className="watch__glass">
+            <StopWatchButton />
+            Test2
+        </div>
     )
 }

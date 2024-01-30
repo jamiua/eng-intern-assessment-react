@@ -4,6 +4,9 @@ import StopWatch from './components/Functionalities/StopWatch'
 
 export default function App() {
     return(
-        <StopWatch />
+        <div> 
+            <StopWatch />
+            Test 
+        </div>
     )
 }
